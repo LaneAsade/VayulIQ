@@ -151,3 +151,6 @@ We employ **four distinct, domain-specific AI agents** configured with precise J
 - **Cost-Optimized Requests**: Fronted by a client-side `RequestQueue` and memoization cache (`_healthCache`, `_forecastCache`, etc.), preventing redundant LLM calls and managing API rate limits gracefully during concurrent traffic.
 - **Fail-safe Fallbacks**: Every API route features highly robust deterministic fallbacks. If an API key is missing or the external model hits a transient error, the application seamlessly switches to structured static assessments without breaking the administrator dashboard.
 - **Actionable Inspections**: Empowers regulatory officers to dispatch drones or inspect sites with a scientific audit trail rather than random spot checks.
+
+
+Link to the website: https://vayuiq.ai.studio/
