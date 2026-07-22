@@ -674,7 +674,7 @@ function MapExplorer() {
 
       {/* Real Google Map Visual */}
       <div className="flex-1 w-full relative rounded overflow-hidden min-h-[300px]">
-        <APIProvider apiKey="AIzaSyDZF9C7vFEH851FmQBP7ivFmluOOmOdg4s">
+        <APIProvider apiKey={process.env.GOOGLE_MAPS_PLATFORM_KEY || ""}>
           <Map
             center={{ lat: cityWards[0]?.lat || 28.6139, lng: cityWards[0]?.lng || 77.2090 }}
             defaultZoom={11}
