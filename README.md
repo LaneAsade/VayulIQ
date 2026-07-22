@@ -1,4 +1,4 @@
-# 🌬️ VayuIQ: AI-Powered Smart City Air Quality Command Center
+# VayuIQ: AI-Powered Smart City Air Quality Command Center
 
 [![React 18](https://img.shields.io/badge/Frontend-React%2018-blue?logo=react&logoColor=white)](https://react.dev)
 [![Vite](https://img.shields.io/badge/Build%20Tool-Vite-646CFF?logo=vite&logoColor=white)](https://vite.dev)
@@ -10,7 +10,7 @@
 
 ---
 
-## 🎯 The Problem & Our Solution
+## The Problem & Our Solution
 
 ### The Challenge: "Data Rich, Information Poor"
 Urban centers in India (like Delhi, Mumbai, and Kolkata) are equipped with continuous ambient air quality monitoring stations (CAAQMS). However, municipal authorities struggle with **reactive decision-making**:
@@ -27,7 +27,7 @@ VayuIQ bridges the gap from raw metrics to local interventions through a unified
 
 ---
 
-## 🧠 System & Agentic Architecture
+## System & Agentic Architecture
 
 VayuIQ is built with a highly secure, full-stack **Express + React** architecture. All communication with Gemini AI is structured server-side using the official `@google/genai` SDK to keep sensitive API keys completely hidden from client browsers.
 
@@ -69,7 +69,7 @@ We employ **four distinct, domain-specific AI agents** configured with precise J
 
 ---
 
-## 🛠️ Key Technical Implementations
+## Key Technical Implementations
 
 - **Google Maps Integration**: Using `@vis.gl/react-google-maps` to render continuous, high-performance, ward-specific pinpoints, custom AQI heat circles, and interactive info-windows directly corresponding to urban monitoring coordinates.
 - **Deterministic Simulation Core**: Seeded random generators (`Mulberry32`) provide continuous, reliable baselines across 5 mega-regions (Delhi, Mumbai, Kolkata, Chennai, Bengaluru) so simulation metrics map logically to genuine diurnal cycles.
@@ -78,7 +78,7 @@ We employ **four distinct, domain-specific AI agents** configured with precise J
 
 ---
 
-## 📦 Project Directory Structure
+## Project Directory Structure
 
 ```
 ├── .env.example            # Template for server-side API keys and secrets
@@ -98,7 +98,7 @@ We employ **four distinct, domain-specific AI agents** configured with precise J
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 - [Node.js](https://nodejs.org/) (v18 or higher)
@@ -145,7 +145,7 @@ We employ **four distinct, domain-specific AI agents** configured with precise J
 
 ---
 
-## 🏆 Hackathon Value Propositions
+## Hackathon Value Propositions
 
 - **Linguistic Inclusivity**: Real-time regional translation ensures that critical environmental warnings can be broadcasted to local vernacular news sources instantly.
 - **Cost-Optimized Requests**: Fronted by a client-side `RequestQueue` and memoization cache (`_healthCache`, `_forecastCache`, etc.), preventing redundant LLM calls and managing API rate limits gracefully during concurrent traffic.
