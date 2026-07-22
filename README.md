@@ -103,7 +103,7 @@ We employ **four distinct, domain-specific AI agents** configured with precise J
 ### Prerequisites
 - [Node.js](https://nodejs.org/) (v18 or higher)
 - [npm](https://www.npmjs.com/) or [Bun](https://bun.sh/)
-- A **Google Gemini API Key** (from [Google AI Studio](https://aistudio.google.com/))
+- A **Google Gemini API Key** 
 - A **Google Maps Platform API Key** (with Maps JavaScript API enabled)
 
 ### Installation
